@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-14 16:29:36 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <laneAreaDetector id="e2_0" lane="E1_1" pos="370.73" length="58.00" period="300.00" file="e2_0.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_1" lane="E1_0" pos="370.73" length="58.00" period="300.00" file="e2_1.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_10" lane="-E2_3" pos="465.99" length="60.00" period="300.00" file="e2_10.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_11" lane="-E4_0" pos="184.01" length="59.00" period="300.00" file="e2_11.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_12" lane="-E2_0" pos="465.99" length="60.00" period="300.00" file="e2_12.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_13" lane="-E4_1" pos="184.01" length="59.00" period="300.00" file="e2_13.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_14" lane="-E4_2" pos="184.01" length="59.00" period="300.00" file="e2_14.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_15" lane="-E4_3" pos="184.01" length="59.00" period="300.00" file="e2_15.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_2" lane="E1_2" pos="370.73" length="58.00" period="300.00" file="e2_2.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_3" lane="E1_3" pos="370.73" length="58.00" period="300.00" file="e2_3.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_4" lane="-E3_1" pos="199.00" length="58.00" period="300.00" file="e2_4.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_5" lane="-E3_0" pos="199.00" length="58.00" period="300.00" file="e2_5.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_6" lane="-E3_2" pos="199.00" length="58.00" period="300.00" file="e2_6.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_7" lane="-E3_3" pos="199.00" length="58.00" period="300.00" file="e2_7.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_8" lane="-E2_1" pos="465.99" length="60.00" period="300.00" file="e2_8.xml" friendlyPos="1"/>
+    <laneAreaDetector id="e2_9" lane="-E2_2" pos="465.99" length="60.00" period="300.00" file="e2_9.xml" friendlyPos="1"/>
+</additional>

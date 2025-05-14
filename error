@@ -1,0 +1,74 @@
+=== Starting Fully Online Continuous Learning (DQN) ===
+Error: Answered with error to command 0xad: Lane area detector 'Node1_2_EB_0' is not known
+Traceback (most recent call last):
+  File "C:\Users\Hajwma\Downloads\sumo-ai-v2\traciDQL.py", line 296, in <module>
+    state = get_state()
+            ^^^^^^^^^^^
+  File "C:\Users\Hajwma\Downloads\sumo-ai-v2\traciDQL.py", line 175, in get_state
+    q_EB_0 = get_queue_length(detector_Node1_2_EB_0)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hajwma\Downloads\sumo-ai-v2\traciDQL.py", line 276, in get_queue_length
+    return traci.lanearea.getLastStepVehicleNumber(detector_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\_lanearea.py", line 94, in getLastStepVehicleNumber
+    return self._getUniversal(tc.LAST_STEP_VEHICLE_NUMBER, detID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+  File "C:\Users\Hajwma\Downloads\sumo-ai-v2\traciDQL.py", line 276, in get_queue_length
+    return traci.lanearea.getLastStepVehicleNumber(detector_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\_lanearea.py", line 94, in getLastStepVehicleNumber
+    return self._getUniversal(tc.LAST_STEP_VEHICLE_NUMBER, detID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+    return traci.lanearea.getLastStepVehicleNumber(detector_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\_lanearea.py", line 94, in getLastStepVehicleNumber
+    return self._getUniversal(tc.LAST_STEP_VEHICLE_NUMBER, detID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\_lanearea.py", line 94, in getLastStepVehicleNumber
+    return self._getUniversal(tc.LAST_STEP_VEHICLE_NUMBER, detID)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 152, in _getUniversal
+    return _parse(self._retValFunc, varID, self._getCmd(varID, objectID, format, *values))
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\domain.py", line 157, in _getCmd
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+    r = self._connection._sendCmd(self._cmdGetID, varID, objID, format, *values)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\connection.py", line 232, in _sendCmd
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\connection.py", line 232, in _sendCmd
+    return self._sendExact()
+    return self._sendExact()
+           ^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\Eclipse\Sumo\tools\traci\connection.py", line 144, in _sendExact
+    raise TraCIException(err, prefix[1], _RESULTS[prefix[2]])
+    raise TraCIException(err, prefix[1], _RESULTS[prefix[2]])
+traci.exceptions.TraCIException: Lane area detector 'Node1_2_EB_0' is not known
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).
